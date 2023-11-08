@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="columns card">
+        <div class="column is-half">
+          <img
+            src="https://www.relibion.in/images/Logo/signup-page.png"
+            alt="signup pic"
+          />
+        </div>
+        <div class="column is-half is">
+          <div class="alert alert-warning alert-dismissible" role="alert"></div>
+          <div class="card">
+            <header class="card-header">
+              <p class="card-header-title">Sign up</p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <form method="post">
+                <div class="field">
+                  <label class="label">User Name</label>
+                  <div class="control">
+                    <input
+                      class="input"
+                      name="username"
+                      type="text"
+                      placeholder="Username"
+                    />
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label">Password</label>
+                  <div class="control has-icons-left has-icons-right">
+                    <input
+                      class="input is-success"
+                      name="password"
+                      type="password"
+                      placeholder="Password"
+                    />
+                  </div>
+                </div>
+                <button class="button is-primary" type="submit">Sign up</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
